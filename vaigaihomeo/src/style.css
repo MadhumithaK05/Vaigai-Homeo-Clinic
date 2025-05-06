@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(85, 181, 181);
+}
+
+h3 {
+    color: rgb(125, 125, 125);
+}
+
+p {
+    text-align: justify;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.footer {
+    background-color: rgb(85, 181, 181);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-top p {
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #00e676;
+    /* WhatsApp green or your primary color */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-top p {
+        font-size: 13px;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+    }
+}
